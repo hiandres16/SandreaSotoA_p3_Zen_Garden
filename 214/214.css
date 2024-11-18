@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+
+/* General Reset */
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Gilda Display', serif;
+	line-height: 1.2;
+	color: #333;
+  }
+  
+  /* Body Styling */
+  body {
+	background-color: #f8f4ec; /* Light beige tone */
+	color: #333;
+  }
+  
+  /* Header Section */
+  header {
+	background: url('../images/hero-image-min.png') no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  }
+  
+  header h1 {
+	font-size: 4.5rem;
+	font-weight: 200;
+	margin: 0;
+	letter-spacing: 2px;
+  }
+  
+  header h2 {
+	font-size: 2.5rem;
+	font-weight: 200;
+	margin: 0;
+  }
+
+  
+  
+
+.summary {
+max-width: 50%;
+margin: 0 auto;
+padding: 3%;
+}  
+
+.summary p { 
+	font-family: 'inter', sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
+	line-height: 120%; 
+}
+
+.preamble , .explanation { 
+	max-width: 50%;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid #cdcdcd;
+	padding: 3%;
+}
+
+
+.preamble h3 , .explanation h3 {
+	font-family: 'Gilda Display', serif;
+	font-size: 1.6rem;
+	line-height: 1.2;
+	font-weight: 800;
+	color: #333;
+	letter-spacing: -0.32px;
+}
+
+
+.preamble p ,  .explanation p {
+	font-family: 'inter', sans-serif;
+	font-size: 1rem;
+	line-height: 1.3;
+	font-weight: 500;
+	color: #585858;
+	max-width: 60ch;
+}
+
+
+
+  /* Main Section */
+  main {
+	padding: 4rem 2rem;
+	margin: 0 auto;
+  }
+  
+  main section {
+	margin-bottom: 3rem;
+  }
+  
+  main h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	color: #5a5a5a;
+  }
+  
+  main p {
+	margin-bottom: 1rem;
+	line-height: 1.8;
+  }
+  
+  /* Participation Section hasta aqui voy*/
+
+
+
+  .participation {
+	color: #000;
+	background-color: #000;
+	background: url('../images/participation2.png') no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 4rem 2rem;
+  }
+  
+  .participation  h3 {
+	font-size: 2.5rem;
+	margin-bottom: 1.5rem;
+	color: #f9f9f9;
+	text-decoration: underline #DE8846;
+  }
+   
+  .participation p, .participation a {
+	font-family: 'inter', sans-serif;
+	line-height: 1.3;
+	font-size: 1rem;
+	font-weight: 500;
+	color: #CBCBCB;
+	max-width: 60ch;
+  }
+  
+  /* Benefits Section */
+  .benefits {
+	background: url('../images/Label.png') no-repeat left 2rem top 4rem ;
+	background-color: #f8f4ec;
+	padding: 2.5rem 3.5rem 0rem 3.5rem;
+	text-align: left;
+	max-width: 80%;
+	margin: 0 auto;
+  }
+
+
+  .benefits h3  {
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+	color: #333;
+  }
+
+  .requirements h3 {
+	font-size: 2.5rem;
+	margin-bottom: 0;
+	color: #333;
+  }
+
+
+
+  .benefits p ,  .requirements p,  .requirements a {
+	font-family: 'inter', sans-serif;
+	line-height: 1.3;
+	font-size: 1rem;
+	font-weight: 500;
+	color: #585858;
+	max-width: 60ch;
+	margin-left: 2rem;
+  }
+
+  .requirements {
+	background: url('../images/Label2.png') no-repeat left 2rem top 4rem ;
+	background-color: #f8f4ec;
+	padding: 2rem 3.5rem;
+	text-align: left;
+	max-width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap; 
+	gap: 2rem; 
+	align-items: flex-start;
+}
+
+  .requirements h3:first-child {
+	flex-basis: 100%;
+	}
+  
+ 
+.requirements p:nth-child(2) {
+	flex-grow: 1; 
+  }
+  
+  
+
+  .requirements p {
+	flex: 1 1 calc(50% - 2rem); 
+	margin: 0; 
+	margin-left: 2rem;
+  }
+  
+
+
+
+
+ 
+
+ 
+  /* Footer */
+  .page-wrapper {
+	position: relative; 
+	width: 100%;
+	overflow: hidden;
+  }
+  footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #111;
+	color: #fff;
+	padding: 2rem;
+	text-align: center;
+  }
+  
+  footer a {
+	color: #f8f4ec;
+	text-decoration: none;
+  }
+  
+  footer a:hover {
+	text-decoration: underline;
+  }
+  /* Sidebar Styles */
+.sidebar {
+	background-color: #FFF; 
+	padding: 2rem 3rem; 
+	font-family: 'Inter', sans-serif; 
+	color: #333; 
+	margin-top: 1rem;
+}
+
+.sidebar .wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+/* Section Titles */
+.sidebar h3 {
+	font-family: 'Gilda Display', serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	color: #333;
+}
+
+/* General List Styles */
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #e5e5e5; /* Divider */
+	padding: 0.75rem 0;
+	gap: 1rem; 
+}
+
+/* Link Styles*/
+.sidebar a {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1.1rem;
+	color: #333;
+}
+
+.sidebar a:hover {
+	color: #de8846; 
+}
+
+
+.design-selection .design-name {
+	flex-grow: 1;
+}
+
+.design-selection .designer-name {
+	white-space: nowrap; 
+	font-size: 1.1rem;
+	font-weight: 500;
+	color: #333; 
+}
+
+/* Archives Section hasta aqui he hecho*/
+.design-archives .next,
+.design-archives .viewall {
+	display: block;
+	margin-top: 0.5rem;
+}
+
+/* Resources Section */
+.zen-resources ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem; /* Space between items */
+}
+
+.zen-resources li {
+	flex: 1 1 calc(50% - 1rem); /* Two-column layout */
+}
+
+.zen-resources a {
+	font-size: 1rem;
+	font-weight: 400;
+	color: #555; /* Slightly muted color */
+}
+
+  
