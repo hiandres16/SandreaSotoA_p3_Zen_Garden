@@ -120,7 +120,7 @@ padding: 3%;
 	line-height: 1.8;
   }
   
-  /* Participation Section hasta aqui voy*/
+  /* Participation Section*/
 
 
 
@@ -313,7 +313,7 @@ padding: 3%;
 	color: #333; 
 }
 
-/* Archives Section hasta aqui he hecho*/
+/* Archives Section*/
 .design-archives .next,
 .design-archives .viewall {
 	display: block;
@@ -324,7 +324,7 @@ padding: 3%;
 .zen-resources ul {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 1rem; /* Space between items */
+	gap: 1rem; 
 }
 
 .zen-resources li {
@@ -334,7 +334,76 @@ padding: 3%;
 .zen-resources a {
 	font-size: 1rem;
 	font-weight: 400;
-	color: #555; /* Slightly muted color */
+	color: #555;
 }
+
+
+@media screen and (max-width: 768px) {
+
+	header h1 {
+		font-size: 3rem;
+		}
+	  
+	  header h2 {
+		font-size: 2rem;
+	  }	 
+			
+	.summary p { 
+		font-size: 1rem;
+	}
+	
+	
+	.preamble h3 , .explanation h3 {
+		font-size: 1.4rem;
+	}
+	
+	
+	
+	  /* Main Section */
+	  main {
+		padding: 2rem 2rem;
+		margin: 0 auto;
+	  }
+	  
+	  main section {
+		margin-bottom: 2rem;
+	  }
+	  
+	  
+
+	.participation {
+		height: 100svh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding: 2rem 2rem;
+	  }
+	  
+	  .participation  h3 {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+		} 
+
+}
+
+
+
+@media screen and (max-width: 480px){
+	.container {
+	  width: 100%;
+	  max-width: 43.75rem;
+	}
+	.mobile {
+	  display: none;
+	}
+
+	.container-noflex {
+	  max-width: 30rem;
+	  margin: 0 auto;
+	}
+  }
+  
 
   
